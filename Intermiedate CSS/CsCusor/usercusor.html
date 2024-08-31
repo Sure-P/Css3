@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(26, 211, 119);
+        }
+        .cursor-demo span{
+            min-width: 100px;
+            padding: 5px 10px;
+            margin-bottom: 5px;
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 3px;
+            background-color: aqua;
+        }
+        a{
+            cursor: url('./litt.png') ,url('./litt.cur'),default;
+        }
+    </style>
+</head>
+<body>
+    <h1>Custom Cusor</h1>
+    <p>Place Your Mouse Pointer <a href="#">over me</a> to reveal the costom cusor.</p>
+    <hr>
+    <h2>More Cusors</h2>
+    <p>Place Your Mouse Pointer over the box to reveal the cursor</p>
+    <div class="cursor-demo">
+        <span style="cursor: auto;">auto</span>
+        <span style="cursor: default;">default</span>
+       <span style="cursor:none ;">none</span>
+       <span style="cursor:context-menu ;">context-menu</span>
+       <span style="cursor: help;">help</span>
+       <span style="cursor:pointer ;">pointer</span>
+       <span style="cursor: progress;">progress</span>
+       <span style="cursor: wait;">wait</span>
+       <span style="cursor:cell ;">cell</span>     
+       <span style="cursor: crosshair;">crosshair</span>
+       <span style="cursor:text ;">text</span>
+       <span style="cursor: vertical-text;">ertical-text</span>
+       <span style="cursor: alias;">alia</span>
+       <span style="cursor:copy ;">copy</span>
+       <span style="cursor: move;"> move</span>
+      
+</body>
+</html>

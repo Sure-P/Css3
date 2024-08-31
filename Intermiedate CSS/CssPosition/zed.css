@@ -1,0 +1,28 @@
+.container{
+    position: relative; 
+}
+.box{
+    position: absolute;
+    width:150px ;
+    height: 150px;
+    opacity: 0.9;
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+}
+.red{
+    background-color: #ff0000;
+    z-index: 1;
+}
+.blue{
+    background-color: #0000ff;
+    z-index: 2;
+    top: 30px;
+    left: 50px;
+}
+.green{
+    background-color: #00ff00;
+    z-index: 3;
+    top: 60px;
+     left: 100px;
+}

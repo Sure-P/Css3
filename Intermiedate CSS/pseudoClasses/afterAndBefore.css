@@ -1,0 +1,6 @@
+h1::before{
+    content: "Laugh Hard";
+}
+h2::after{
+    content: "Side EYE";
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a:link {
+        color: blue;
+        text-decoration: none;
+        border-bottom: 1px solid black;
+      }
+      /* when link is visited */
+      a:visited {
+        color: red;
+        text-decoration: none;
+        border-bottom: 1px solid rgb(14, 190, 155);
+      }
+      /* when link is hovered */
+      a:hover {
+        color: yellow;
+        font-size: 250%;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      /* when link is active */
+      a:visited:active {
+        color: green;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <p>
+      <a
+        href="https://www.bbc.com"
+        target="_blank"
+        title="British Broadcasting Cooperation"
+        >BBC</a
+      >
+    </p>
+    <p>
+      <a id="cnn" href="http://www.cnn.com" target="_blank" title="Cable Network News"
+        >CNN</a
+      >
+    </p>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+HTML Syntax
+<element 'attributes'>Content</element>
+<element 'attributes'/>
+
+CSS Syntax
+<selector>{
+properties in key valuepair
+  // key : value;
+}
+
+
+h1{
+    width : grey;
+    font-size : 12px;
+}
