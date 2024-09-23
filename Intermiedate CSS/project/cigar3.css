@@ -1,0 +1,43 @@
+.nvcolor{
+    background-color: rgb(248, 244, 244);
+  }
+  .navbar>.container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.header1235 {
+    display: flex;
+    font-size: x-small;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 15px;
+    }
+
+    .float2{
+        display: flex;
+      }
+
+      .pading1{
+        padding: 0 10px 0 10px;
+      }
+      .first-li {
+        background-color: black;
+      
+      }
+      .borderside{
+        border-left:1px solid black ;
+        border-right: 1px solid black;
+        }
+     
+      
+      .newlogo {
+        padding-top: 10px;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+      }
+      
