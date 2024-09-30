@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            /* width: 450px;
+            height: 300px; */
+            position: absolute;
+            left: 500px;
+            top: 200px;
+            background-repeat: no-repeat;
+           /* background-image: url('../cssTransition/image/fan2.jpeg'); */
+            /* margin: 50px; */
+            animation-name: bladeRoll;
+            animation-duration: 500ms;
+            animation-timing-function:ease;
+            animation-iteration-count:infinite;
+        }
+       @keyframes bladeRoll{
+          10%{transform: rotate(36deg) scale(1);}
+          20%{transform: rotate(72deg) scale(1.5);}
+          30%{transform: rotate(108deg) scale(2);}
+          40%{transform: rotate(144deg) scale(1);}
+          50%{transform: rotate(180deg) scale(3);}
+          60%{transform: rotate(216deg) scale(1);}
+          70%{transform: rotate(252deg) scale(4);}
+          80%{transform: rotate(288deg) scale(1);}
+          90%{transform: rotate(324deg) scale(5);}
+          100%{transform: rotate(360deg) scale(1);}
+          
+       }
+    </style>
+</head>
+<body>  
+        <img src="../cssTransition/image/fan2.jpeg" alt="" srcset="">
+</body>
+</html>

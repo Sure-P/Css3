@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 700px;
+            height: 1000px;
+            position: relative;
+            background-repeat: no-repeat;
+           background-image: url('../2DTranslate/image/Snapchat-755879261.jpg');
+            margin: 50px;
+            animation-name: moveOn;
+            animation-duration: 5s;
+            animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+            animation-iteration-count:infinite;
+        }
+       @keyframes moveOn{
+           from{
+            left: 0px;
+           }
+           to{
+            left: 50%;
+           }
+       }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="" alt="" srcset="">
+    </div>
+</body>
+</html>
